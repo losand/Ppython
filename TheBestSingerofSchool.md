@@ -11,4 +11,19 @@
     score=[0,0,0,0,0,0,0,0,0,0]
     for score in range(10)
 rnm 垃圾python
+     score = []
+AllScore=0
+for i in range(1,9):
+   s= input(f"{i}Input: \n")
+   score.append(s)
+print("依次为",score)
+print("The Max",max(score))
+print("The Min",min(score))
+score.remove(max(score))
+score.remove(min(score))
+print(score)
+n= len(score)
+print(n)
+
+print(AllScore/(len(score)))
     
