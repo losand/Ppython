@@ -6,13 +6,9 @@
 计算得分**打分的平均分**去掉最低和最高  
 
 可以看出至少需要两组数组**学生**，**评委**
-
-    student=[]
-    score=[0,0,0,0,0,0,0,0,0,0]
-    for score in range(10)
+    score = []
 rnm 垃圾python
-     score = []
-AllScore=0
+    AllScore=0
 for i in range(1,9):
    s= input(f"{i}Input: \n")
    score.append(s)
@@ -25,5 +21,5 @@ print(score)
 n= len(score)
 print(n)
 
-print(AllScore/(len(score)))
+
     
