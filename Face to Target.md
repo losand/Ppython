@@ -16,3 +16,14 @@ car.wheels = 4
 print(Car.wheels)
 print(car.wheels)
 ```
+类方法
+
+``` python
+class Bus:
+    @classmethod
+    def stop(cls): #类方法
+       print("类方法")
+bus = Bus()
+bus.stop() #通过类方法调用类
+Bus.stop() #通过类调用类
+```
