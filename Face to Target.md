@@ -27,3 +27,13 @@ bus = Bus()
 bus.stop() #通过类方法调用类
 Bus.stop() #通过类调用类
 ```
+
+``` python
+class Bus:
+    @staticmethod
+    def stop(cls): #方法
+       print("类方法")
+bus = Bus()
+bus.stop() 
+Bus.stop() 
+```
