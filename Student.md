@@ -3,7 +3,7 @@
 ### we should make the imformataion save.
 
 The **first** :
-we should create a Ui  
+we should create an Ui  
 
 for example:
 ``` python
@@ -19,4 +19,22 @@ def Main_Ui():
     print("**************   ****")
     print("***********    *v0.01")
     print("*" * 30)
+```
+and now we Add function：  
+  
+  
+``` python
+def Load_imformation():
+
+def Save_imformation():
+
+def Show_All():
+
+def Search():
+
+def Delate_student():
+
+def Fix_student():
+
+def Add_student():
 ```
